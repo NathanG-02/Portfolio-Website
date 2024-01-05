@@ -16,16 +16,33 @@
   }
 }
 
+html{
+  background: rgb(25, 25, 25) 65%;
+}
+
 main{
+  cursor: url('./assets/cursor.png'), auto;
+}
+
+#TitleCard{
   background: radial-gradient(rgb(58, 58, 58) 0%, rgb(25, 25, 25) 65%);
 }
 
-/* body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-} */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background: #414141;
+  /* border-radius: 15px; */
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #656565;
+  /* border-radius: 15px; */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #969696;
+  /* border-radius: 15px; */
+}
