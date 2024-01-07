@@ -25,10 +25,16 @@ function AboutMe(props, ref){
                         </div>
                     </div>
                     <div className='w-3/4 m-4'>
-                        Hi!
-                        <br/>
-                        <br/>
-                        I&apos;m Nathan Grabowski, a computer science student at the University of Massachusetts Amherst.  I&apos;m looking to work alongside talented, motivated, and ambitious people to jumpstart a career in software engineering.  I&apos;m looking to challenge myself both technically and creatively to build quality software for projects that I believe in.
+                    Hi, I'm Nathan Grabowski, a computer science student at the University of Massachusetts Amherst.
+                    <br/>
+                    <br/>
+                    My programming journey started early. It began in middle school with some simple games in the Unity game engine and then later, some basic chatbots for the popular gaming-focused social app Discord.
+                    <br/>
+                    <br/>
+                    In high school, I took up VEX robotics, which combined both hardware and software design and implementation. I eventually became team captain and led a team of newcomers to win multiple tournament-style competitions. Here, I fell in love with the engineering design process: given a task or problem, finding the best and most efficient solution.
+                    <br/>
+                    <br/>
+                    Today, I'm always self-teaching to expand my software engineering toolkit and to build quality software for projects that I believe in.
                     </div>
                 </div>
             </div>
