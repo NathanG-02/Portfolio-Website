@@ -12,13 +12,13 @@ const arvoBold = Arvo({ subsets: ['latin'], weight: '700', style:'italic' });
 function TitleCard(props, ref){
     return (
     <div id='TitleCard' ref={ref} className={arvoBold.className}>
-        <div className='p-56 mx-96 flex flex-col items-center justify-center'>
+        <div className='p-48 mx-96 flex flex-col items-center justify-center'>
             <div className='text-8xl text-center p-3'>Hi, I&apos;m</div>
             <div className='relative text-6xl text-center p-3 m-2'>
                 <div className='absolute top-3 left-14 scale-125 pointer-events-none'>
                     <Image src='/Title Outline 1.png' alt='border image 1' width={600} height={200}/>
                 </div>
-                <div>Nathan Grabowski</div>
+                <div className='w-max'>Nathan Grabowski</div>
                 <div className='absolute bottom-3 right-14 scale-125 pointer-events-none'>
                     <Image src='/Title Outline 2.png' alt='border image 2' width={600} height={200}/>
                 </div>

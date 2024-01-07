@@ -2,6 +2,9 @@
 import TitleCard from './components/TitleCard.js'
 import SectionIndicator from './components/SectionIndicator.js'
 import Projects from './components/Projects.js'
+import Experience from './components/Experience.js'
+import AboutMe from './components/AboutMe.js'
+import Contact from './components/Contact.js'
 import React, { useRef } from 'react';
 
 export default function Home() {
@@ -18,9 +21,8 @@ export default function Home() {
       <div className="flex min-h-screen flex-col items-center justify-center text-white">
         <TitleCard ref={title}/>
         <Projects ref={projects}/>
-        <Projects ref={experience}/>
-        <Projects ref={aboutme}/>
-        <Projects ref={contact}/>
+        <Experience ref={experience}/>
+        <AboutMe ref={aboutme}/>
       </div>
     </main>
   )
