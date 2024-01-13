@@ -34,7 +34,7 @@ function AboutMe(props, ref){
                         In high school, I took up VEX robotics, which combined both hardware and software design and implementation. I eventually became team captain and led a team of newcomers to win multiple tournament-style competitions. Here, I fell in love with the engineering design process: given a task or problem, finding the best and most efficient solution.
                         <br/>
                         <br/>
-                        At UMass, I've continued my study of computer science and software engineering not only through my coursework, but also through organizations like CICSoft, an application development club, and participating in HackUMass, a popular 36-hour hackathon.
+                        At UMass, I&apos;ve continued my study of computer science and software engineering not only through my coursework, but also through organizations like CICSoft, an application development club, and participating in HackUMass, a popular 36-hour hackathon.
                         <br/>
                         <br/>
                         Today, I&apos;m always self-teaching to expand my software engineering toolkit and to build quality software for projects that I believe in.
