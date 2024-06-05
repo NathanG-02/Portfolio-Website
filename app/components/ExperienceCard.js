@@ -8,7 +8,7 @@ const arvoRegular = Arvo({ subsets: ['latin'], weight: '400', style:'italic' });
 function ExperienceCard( { company, role, date, description, binNum, link }, ref ){
     return (
     <div ref={ref} className={arvoRegular.className}>
-        <div className='relative h-80 p-6 m-4 bg-black bg-opacity-50 opacity-80 rounded-2xl border-4 border-white/0 hover:border-white/80 hover:scale-105 transition-all duration-200'>
+        <div className='relative h-80 p-6 m-4 bg-black bg-opacity-50 opacity-80 rounded-2xl border-4 border-white/0 hover:border-[#4076b3] hover:scale-105 transition-all duration-200'>
             <div className='absolute inset-x-0 top-1.5 flex flex-row items-center justify-center'>
                 {[...binNum].map((digit, i) => (digit == 1) ? <div key={'bit' + i} className='p-1 m-1 bg-white bg-opacity-100 rounded-2xl'></div> : <div key={'bit' + i} className='p-1 m-1 bg-white bg-opacity-20 rounded-2xl'></div>)}
             </div>
