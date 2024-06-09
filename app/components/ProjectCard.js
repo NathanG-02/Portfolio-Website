@@ -28,7 +28,7 @@ function ProjectCard( { title, description, binNum, linkToGitHub, linkToDeployme
                         <Image src='/Nextjs Logo.png' alt='Next.js Logo' width={85} height={50}/>
                     </Link>: ''}
                     {(mongodb !== undefined) ? <Link href='https://www.mongodb.com/' target='_blank' className='mx-1 bg-white bg-opacity-0 rounded-lg p-1.5 hover:bg-opacity-30 transition-all'>
-                        <Image src='/Mongo Logo.png' alt='MongoDB Logo' width={95} height={50}/>
+                        <Image src='/Mongo.png' alt='MongoDB Logo' width={95} height={50}/>
                     </Link>: ''}
                     {(mui !== undefined) ? <Link href='https://mui.com/' target='_blank' className='mx-1 bg-white bg-opacity-0 rounded-lg p-1.5 hover:bg-opacity-30 transition-all'>
                         <Image src='/MUI Logo.png' alt='MaterialUI Logo' width={35} height={35}/>
