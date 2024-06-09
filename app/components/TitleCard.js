@@ -28,10 +28,10 @@ function TitleCard(props, ref){
             </div>
             <div className='flex flex-row items-center justify-center m-3'>
                 <Link href='https://www.linkedin.com/in/nathan-g02/' target='_blank' className='mx-1 bg-white bg-opacity-0 rounded-lg p-1.5 hover:bg-opacity-30 transition-all'>
-                    <LinkedInIcon className='w-9 h-9'/>
+                    <LinkedInIcon fontSize='large'/>
                 </Link>
                 <Link href='https://github.com/NathanG-02' target='_blank' className='mx-1 bg-white bg-opacity-0 rounded-lg p-1.5 hover:bg-opacity-30 transition-all'>
-                    <GitHubIcon className='w-9 h-9'/>
+                    <GitHubIcon fontSize='large'/>
                 </Link>
                 <Link href='https://drive.google.com/file/d/1UBX7dPFj5WlrUQTx_AAoBkQm79-vFsxk/view?usp=sharing' target='_blank' className='border-2 mx-2 bg-opacity-0 bg-white rounded-lg p-1.5 hover:bg-opacity-30 transition-all'>
                     <div className='flex flex-row items-center justify-center'>
